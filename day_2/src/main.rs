@@ -57,8 +57,6 @@ fn part_two(mut file : &File) -> String {
             }
             if diff.len() == 1 {
                 let mut result : String = words[i][..(diff[0])].to_string();
-                // println!("{}", words[i][..(diff[0])].to_string());
-                // println!("{}", &words[i][(diff[0])..].to_string());
                 result += &words[i][(diff[0]+1)..].to_string();
                 return result;
             }

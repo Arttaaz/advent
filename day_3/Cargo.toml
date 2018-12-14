@@ -3,5 +3,8 @@ name = "day_3"
 version = "0.1.0"
 authors = ["Arttaaz <arttaaz@gmail.com>"]
 
+[profile.dev]
+opt-level = 3
+
 [dependencies]
 regex = "1"
